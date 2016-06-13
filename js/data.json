@@ -1,0 +1,20 @@
+{ "recipes" : [
+  {
+    "name":"Carrot Stew",
+    "image":"http://placehold.it/350x150",
+    "link":"www.whatever.com",
+    "ingredients": [ "peppers", "cukes", "grapes", "plums" ]
+  },
+  {
+    "name":"Kale Sandwich",
+    "image":"http://placehold.it/350x150",
+    "link":"www.whatever.com",
+    "ingredients": [ "apples", "bananas", "kiwis", "kale", "spinach" ] 
+  },
+  {
+    "name":"Bean Soup",
+    "image":"http://placehold.it/350x150",
+    "link":"www.whatever.com",
+    "ingredients": [ "limes", "lemons", "eggplant" ] 
+  }
+]}
