@@ -1,28 +1,28 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 audio,
@@ -31,24 +31,24 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
 
 /* ===== Initializr Styles ==================================================
@@ -56,67 +56,38 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+  font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
 
 .wrapper {
-    width: 90%;
-    margin: 0 5%;
-}
-
-/* ===================
-    ALL: Orange Theme
-   =================== */
-
-.header-container {
-    border-bottom: 20px solid #e44d26;
-}
-
-.footer-container,
-.main aside {
-    border-top: 20px solid #e44d26;
-}
-
-.header-container,
-.footer-container,
-.main aside {
-    background: #f16529;
-}
-
-.title {
-    color: white;
+  width: 90%;
+  margin: 0 5%;
 }
 
 /* ==============
-    MOBILE: Menu
+   MOBILE: Menu
    ============== */
 
 nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 nav a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-
-    color: white;
-    background: #e44d26;
+  margin-bottom: 10px;
+  padding: 15px 0;
+  text-decoration: none;
+  color: #122;
 }
 
 nav a:hover,
 nav a:visited {
-    color: white;
+  color: teal;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* ==============
@@ -124,21 +95,11 @@ nav a:hover {
    ============== */
 
 .main {
-    padding: 30px 0;
+  padding: 30px 0;
 }
 
 .main article h1 {
-    font-size: 2em;
-}
-
-.main aside {
-    color: white;
-    padding: 0px 5% 10px;
-}
-
-.footer-container footer {
-    color: white;
-    padding: 20px 0;
+  font-size: 2em;
 }
 
 /* ===============
@@ -146,58 +107,31 @@ nav a:hover {
    =============== */
 
 .ie7 .title {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 /* ===============
     CUSTOM
    =============== */
 
-header .logo {
-  transition: fill 0.3s ease-in-out;
-  width: 150px;
-  margin: 0 0 0 35px;
-  z-index: 200;
-  cursor: pointer;
-  fill: #1fb6ff;
-}
-
-header .logo:hover {
-  fill: url(#effect);
-}
-
-pattern {
-  overflow: hidden;
-}
-
-image[Attributes Style] {
-  width: 80;
-  height: 30;
-}
-
-.float-left {
-  float: left;
-}
-
-svg:not(:root) {
-  overflow: hidden;
-}
-
-svg[Attributes Style] {
-  width: 80;
-}
-
-html|* > svg {
-  transform-origin: 50% 50% 0px;
-}
-
 * {
   transform-origin: 0px 0px 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
+.header-container {
+  border-bottom: 20px solid slategray;
+}
+
+.header-container {
+  background: #fff;
+}
+
 header {
   border-bottom: 1px solid #e0e6ed;
-  background: white;
   height: 62px;
   line-height: 62px;
 }
@@ -240,10 +174,6 @@ html|* > svg {
   transform-origin: 50% 50% 0px;
 }
 
-* {
-  transform-origin: 0px 0px 0px;
-}
-
 .inner-container {
   width: 100%;
   padding-bottom: 5px;
@@ -256,31 +186,43 @@ html|* > svg {
 .button {
   color: white;
   text-decoration: none;
-  font-family: sans-serif;
   padding: 10px;
 }
 
 .button-frame {
   width: 100%;
+  padding: 20px 0;
+  margin: 0 auto;
   background: limegreen;
   text-align: center;
 }
 
-.icon {
-  width: 20px;
-  height: 20px;
-  background-color: blue;
-  margin: 10px;
+.button-frame:hover {
+  background: green;
 }
 
-.icon {
+.clicker {
+  width: 20px;
+  height: 20px;
+  border-radius: 40px;
+  color: white;
+  text-decoration: none;
+  background-color: slategray;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: 10;
 }
 
-.icon a {
+.clicker:hover {
+  color: aqua;
+  background: darkslategray;
+}
+
+.clicker a {
   color: white;
 }
 
@@ -325,6 +267,17 @@ div.details {
   display: inline;
 }
 
+.footer-container,
+.main aside {
+  border-top: 20px solid darkslategray;
+  background: #122;
+}
+
+.footer-container footer {
+  color: white;
+  padding: 20px 0;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -335,33 +288,33 @@ div.details {
     INTERMEDIATE: Menu
    ==================== */
 
-    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-    }
+  nav a {
+    float: left;
+    width: 27%;
+    margin: 0 1.7%;
+    padding: 25px 2%;
+    margin-bottom: 0;
+  }
 
-    nav li:first-child a {
-        margin-left: 0;
-    }
+  nav li:first-child a {
+    margin-left: 0;
+  }
 
-    nav li:last-child a {
-        margin-right: 0;
-    }
+  nav li:last-child a {
+    margin-right: 0;
+  }
 
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
 
-    nav ul li {
-        display: inline;
-    }
+  nav ul li {
+    display: inline;
+  }
 
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
+  .oldie nav a {
+    margin: 0 0.7%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -370,47 +323,47 @@ div.details {
     WIDE: CSS3 Effects
    ==================== */
 
-    .header-container,
-    .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
+  .header-container,
+  .main aside {
+    -webkit-box-shadow: 0 5px 10px #aaa;
+       -moz-box-shadow: 0 5px 10px #aaa;
+            box-shadow: 0 5px 10px #aaa;
+  }
 
 /* ============
     WIDE: Menu
    ============ */
 
-    .title {
-        float: left;
-    }
+  .title {
+    float: left;
+  }
 
-    nav {
-        float: right;
-        width: 38%;
-    }
+  nav {
+    float: right;
+    width: 38%;
+  }
 
 /* ============
     WIDE: Main
    ============ */
 
-    .main article {
-        float: left;
-        width: 57%;
-    }
+  .main article {
+    float: left;
+    width: 57%;
+  }
 
-    .main aside {
-        float: right;
-        width: 28%;
-    }
+  .main aside {
+    float: right;
+    width: 28%;
+  }
 
 /* ===============
     CUSTOM
    =============== */
 
-    .inner-container {
-      width: 50%;
-    }
+  .inner-container {
+    width: 50%;
+  }
 
 }
 
@@ -420,10 +373,11 @@ div.details {
     Maximal Width
    =============== */
 
-    .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
-        margin: 0 auto;
-    }
+  .wrapper {
+    width: 1026px; /* 1140px - 10% for margins */
+    margin: 0 auto;
+  }
+
 }
 
 /* ==========================================================================
@@ -431,29 +385,29 @@ div.details {
    ========================================================================== */
 
 .hidden {
-    display: none !important;
-    visibility: hidden;
+  display: none !important;
+  visibility: hidden;
 }
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
 
 .invisible {
@@ -462,78 +416,14 @@ div.details {
 
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 .clearfix {
-    *zoom: 1;
-}
-
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
-
-@media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  *zoom: 1;
 }
