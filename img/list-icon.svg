@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="39px" height="42px" viewBox="0 0 39 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>list-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,3.99152005 C0,1.7870644 1.78737601,0 4.00723117,0 L34.1106007,0 C36.3237333,0 38.1178318,1.79359815 38.1178318,3.99152005 L38.1178318,37.4409058 C38.1178318,39.6453615 36.3304558,41.4324259 34.1106007,41.4324259 L4.00723117,41.4324259 C1.79409851,41.4324259 0,39.6388278 0,37.4409058 L0,3.99152005 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="38.1178318" height="41.4324259" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CookyHero" transform="translate(-335.000000, -266.000000)" stroke="#311B92">
+            <g id="click" transform="translate(313.000000, 246.000000)">
+                <g id="list-icon" transform="translate(22.165955, 20.508658)">
+                    <use id="box" mask="url(#mask-2)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-1"></use>
+                    <g id="rows" transform="translate(9.115134, 14.087025)" stroke-linecap="square" stroke-width="3">
+                        <g id="row" transform="translate(0.000000, 16.572970)">
+                            <path d="M8.2606152,1.82668521 L18.6828019,1.82668521" id="Line"></path>
+                            <path d="M0.80277854,1.82668521 L2.48594555,1.82668521" id="checkbox"></path>
+                        </g>
+                        <g id="row" transform="translate(0.000000, 11.048647)">
+                            <path d="M8.2606152,1.82668521 L16.2296825,1.82668521" id="Line"></path>
+                            <path d="M0.80277854,1.82668521 L2.48594555,1.82668521" id="checkbox"></path>
+                        </g>
+                        <g id="row" transform="translate(0.000000, 5.524323)">
+                            <path d="M8.2606152,1.82668521 L19.8875644,1.82668521" id="Line"></path>
+                            <path d="M0.80277854,1.82668521 L2.48594555,1.82668521" id="checkbox"></path>
+                        </g>
+                        <g id="row">
+                            <path d="M8.2606152,1.82668521 L18.6652628,1.82668521" id="Line"></path>
+                            <path d="M0.80277854,1.82668521 L2.48594555,1.82668521" id="checkbox"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

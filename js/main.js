@@ -21,12 +21,23 @@ $(function() {
 
 }); //function
 
-  function toggle_visibility(id) {
-    var e = document.getElementById(id);
-    if ( $(e).is( ":hidden" ) ) {
-      $( e ).slideDown( "fast" );
-    } else {
-      $( e ).slideUp( "fast" );
-    }
-    event.preventDefault()
+function toggle_visibility(id) {
+  var e = document.getElementById(id);
+  if ( $(e).is( ":hidden" ) ) {
+    $(e).slideDown( "fast" );
+  } else {
+    $(e).slideUp( "fast" );
   }
+  event.preventDefault();
+}
+
+function change_icon(id)  {
+  var e = document.getElementById(id);
+  var src = $(e).attr('src');
+  if ( src == "img/list-icon.svg" ) {
+    $(e).attr('src',"img/x-icon.svg");
+  } else {
+    $(e).attr('src',"img/list-icon.svg");
+  }
+  event.preventDefault();
+}
