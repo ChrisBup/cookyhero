@@ -1,6 +1,14 @@
 # CookyHero
 A Simple Grocery List App that began with a Google doc and a dream.
 
-The site is built with JSON/AJAX, [Handlebars.js](http://handlebarsjs.com/) for templating, [Typeform](https://www.typeform.com/) for submissions, and [Sass](http://sass-lang.com/).
+The site was hand-rolled with JSON/AJAX.
 
 Hit me up if you have any questions or suggestions. Thanks for checking it out!
+
+### To Run Locally
+
+`python -m SimpleHTTPServer 8888 & npm install http-server -g`
+
+`http-server`
+
+go to: [http://0.0.0.0:8080/](http://0.0.0.0:8080/)
