@@ -322,15 +322,18 @@ a.button:hover {
 .share-buttons {
   display: inline;
 }
-.share-buttons img.social {
-  width: 40px;
-  height: 40px;
+.social-icons-svg {
   padding: 10px;
-  border: 0;
   fill: #F7FBFF;
 }
-.share-buttons img.social:hover {
-  fill: #F2F8FF;
+.social-icons-svg:hover {
+  fill: #50E3C2;
+}
+.social-icons {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  transition: fill 0.3s ease-in-out;
 }
 
 /* Helper Classes */
