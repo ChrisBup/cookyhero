@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>What</title>
+  <title>Submit</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -70,50 +70,39 @@
   </div>
 
   <div class="main-container">
-    <div class="wrapper what-container clearfix">
+    <div class="wrapper submit-container clearfix">
 
       <article>
         <section>
-
-          <h1>What is this?</h1>
-
-          <p>This site is designed to make planning meals a bit easier. I made it for my own use but share it in case anyone else might find it useful.</p>
-
-          <p>There are lots of recipes online but I wanted a place that collected only my favorites and showed me only what I needed to pick up from the market without having to sift through descriptions, instructions, ads, photos &mdash; basically, all the noise that recipe pages tend to have.</p>
-
-          <p>So here&#8217;s my ultra simple solution: choose a dish by its photo and you&#8217;ll see a grocery list for that dish, excluding those ingredients you probably already have (garlic, butter, oils, spices, etc.). You can even check items off as you shop.</p>
-
-          <p>When you get home and it&#8217;s time to start preparing your meal, click on &quot;View Recipe&quot; to get the details &mdash; only when you need them.</p>
-
-          <p>Now you can spend less time searching and more time cooking. Enjoy!</p>
-
-        </section>
-        <section>
-
-          <h2>Share Your Faves!</h2>
-
-          <p>Although this started off as a personal project I made just for fun, my hope is to make it collaborative. So whether you&#8217;re a friend or stranger, submit your favorite recipes at the top and let&#8217;s start sharing!</p>
-
-          <p>My plan is to try every recipe that comes in and if I like it, I&#8217;ll add it to the list.</p>
-
-          <p>Try to add only main course meals that are doable on a week night and let&#8217;s make vegetables the star of the show!</p>
-
-        </section>
-        <section>
-
-          <h2>A Note About Cookbooks</h2>
-
-          <p>Although this site is for recipes that live online, it must be said that cookbooks will always be the best way to discover new recipes and get into the kitchen. They are not meant to stay on the shelf but to be used, beat up, spilled on, enjoyed, and shared. So please do.</p>
-
-          <p>To that end, allow me to shout out one of my favorite spots in all the world, <a href="http://www.archestrat.us/" target="_blank">Archestratus</a>, a food-related book store, cafe, and event space in Greenpoint, Brooklyn&mdash;and a great place to find all the cooking inspiration you need. If you live in New York, be sure to pay them a visit.</p>
-
-        </section>
-        <section>
-
-          <h2>Questions? Suggestions?</h2>
-
-          <p>Hit me up! And if you care to, <a href="#" target="_blank">please donate.</a> All proceeds will be given to <a href="https://bushwickcityfarm.wordpress.com/" target="_blank">Bushwick City Farm</a> and <a href="https://bkrot.org/" target="_blank">BK Rot</a>, two neighborhood gardens that provide healthy food, greenspace, and education to the community.</p>
-
+          <a href="/submit-link.html">Or Submit a Link →</a>
+          <form id='foo'>
+            <p>
+              <label>Name</label>
+              <input id='name' name='name' type='text'>
+            </p>
+            <p>
+              <label>Email Address</label>
+              <input id='email' name='email' type='email'>
+            </p>
+            <p>
+              <label>Ingredients</label>
+              <input id='phone' name='phone' type='tel'>
+            </p>
+            <p>
+              <label>Upload 1–3 Images</label>
+              <input id='phone' name='phone' type='tel'>
+            </p>
+            <p>
+              <label>Intro Notes</label>
+              <input id='phone' name='phone' type='tel'>
+            </p>
+            <p>
+              <label>Instructions</label>
+              <textarea id='message' name='message' rows='5'></textarea>
+            </p>
+              <div id='success'></div>
+              <button type='submit'>Send</button>
+          </form>
         </section>
       </article>
 
