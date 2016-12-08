@@ -388,21 +388,9 @@ a.button:hover {
 }
 
 .header-1, .header-2, .header-3, .header-4 {
-  padding: 0;
-  display: block;
+  display: table-cell;
+  padding: 0 0 0 .5em;
   vertical-align: middle
-}
-
-@media screen and (min-width: 30em) {
-  .header-1, .header-2, .header-3, .header-4 {
-    display: table-cell;
-    padding: 0 0 0 .5em;
-  }
-  .form-jump {
-    display: table-cell;
-    text-align: right;
-    width: 100%;
-  }
 }
 
 .lemon-icon, .carrot-icon, .broccoli-icon, .eggplant-icon {
@@ -436,10 +424,21 @@ a.button:hover {
 }
 
 .form-jump {
-  display: block;
-  text-align: left;
+  display: table-cell;
+  text-align: right;
   padding: 0;
   width: 100%;
+}
+
+@media screen and (max-width: 48em) {
+  .header-1, .header-2, .header-3, .header-4 {
+    padding: 0;
+    display: block;
+  }
+  .form-jump {
+    display: block;
+    text-align: left;
+  }
 }
 
 /* form */
