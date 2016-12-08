@@ -182,19 +182,19 @@
     {
         "name": "Sesame Noodles with Cucumber",
         "link": "http://smittenkitchen.com/blog/2015/08/takeout-style-sesame-noodles-with-cucumber/",
-        "image": "http://smittenkitchen.com/wp-content/uploads/takeout-style-sesame-noodles-with-cucumber.jpg",
+        "image": "https://smittenkitchendotcom.files.wordpress.com/2015/08/takeout-style-sesame-noodles-with-cucumber1.jpg",
         "ingredients": ["rice noodles","sesame oil","Chinese sesame paste or tahini","peanut butter","Chinese rice vinegar","ginger","Chili-garlic paste","cucumber","roasted salted peanuts","fresh mint","fresh cilantro"]
     },
     {
         "name": "mushrooms and greens with toast",
         "link": "http://smittenkitchen.com/blog/2015/05/mushrooms-and-greens-with-toast/",
-        "image": "http://smittenkitchen.com/wp-content/uploads/mushroooms-and-greens-with-toast.jpg",
+        "image": "https://smittenkitchendotcom.files.wordpress.com/2015/05/mushroooms-and-greens-with-toast1.jpg",
         "ingredients": ["mixed mushrooms","crusty bread","shallots","red chile","fresh greens","melting cheese"]
     },
     {
         "name": "crispy frizzled artichokes",
         "link": "http://smittenkitchen.com/blog/2015/06/crispy-frizzled-artichokes/",
-        "image": "http://smittenkitchen.com/wp-content/uploads/crispy-frizzled-artichokes.jpg",
+        "image": "https://smittenkitchendotcom.files.wordpress.com/2015/06/crispy-frizzled-artichokes1.jpg",
         "ingredients": ["artichokes","lemons","parsley"]
     },
     {
@@ -236,7 +236,7 @@
     {
         "name": "Zucchini and Bean Salad With Bulgur",
         "link": "http://www.realsimple.com/food-recipes/browse-all-recipes/zucchini-bean-bulgur-salad",
-        "image": "http://cdn-image.realsimple.com/sites/default/files/styles/rs_main_image/public/image/images/1208/zucchini-bean-salad_300.jpg?itok=QMwfaF3R",
+        "image": "http://cdn-image.realsimple.com/sites/default/files/styles/rs_photo_gallery_vert/public/zucchini-bulgur-salad.jpg?itok=N0yW_-H3",
         "ingredients": ["zucchini","kidney beans","shallost","salted roasted almonds","fresh dill","bulgur","goat cheese"]
     },
     {
@@ -434,7 +434,7 @@
     {
         "name": "Toasted Barley Risotto With Spinach And Herb Purée",
         "link": "http://www.lottieanddoof.com/2014/04/toasted-barley-risotto-with-spinach-and-herb-puree/",
-        "image": "http://www.lottieanddoof.com/wp-content/uploads/2014/04/IMG_2321.jpg",
+        "image": "img/toasted_barley_risotto.jpg",
         "ingredients": ["barley","vegetable broth","onion","fresh thyme","spinach","parsley","lemon","parmesan","chives"]
     },
     {
@@ -488,13 +488,13 @@
     {
         "name": "Sage & Nutmeg Butternut Squash Autumn Risotto",
         "link": "http://www.hippressurecooking.com/sage-nutmeg-butternut-squash-autumn-risotto/",
-        "image": "http://www.hippressurecooking.com/wp-content/uploads/2015/10/butternut_squash_pressure_cooker_risotto11a_small.jpg",
+        "image": "img/butternut_squash_risotto.jpg",
         "ingredients": ["butternut squash","arborio rice","white win","nutmeg"]
     },
     {
         "name": "Asparagus Spring Risotto & making micro stock",
         "link": "http://www.hippressurecooking.com/asparagus-spring-risotto-making-micro-stock/",
-        "image": "http://www.hippressurecooking.com/wp-content/uploads/2015/04/asparagus_risotto_h-768x434.jpg",
+        "image": "img/asparagus_risotto.jpg",
         "ingredients": ["asparagus","red onion","arborio rice","lemon"]
     },
     {
@@ -552,9 +552,27 @@
         "ingredients": ["flour","sheet puff pastry","grape or cherry tomatoes","grated mozzarella"]
     },
     {
-        "name": "Crispy Greek-style pie",
+        "name": "Crispy Greek-style Pie",
         "link": "http://www.bbcgoodfood.com/recipes/4540/crispy-greekstyle-pie-",
         "image": "http://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--491503_12.jpg?itok=iW13g5ug",
         "ingredients": ["spinach","jar of sundried tomato in oil","feta","eggs","filo pastry"]
+    },
+    {
+        "name": "Vegetarian Gumbo",
+        "link": "http://spicysouthernkitchen.com/vegetarian-gumbo/",
+        "image": "http://spicysouthernkitchen.com/wp-content/uploads/vegetarian-gumbo-11.jpg",
+        "ingredients": ["tomato","onion","Worcestershire sauce","apple cider vinegar","nutmeg","vegetable broth","okra","red beans","cremini mushrooms","zucchini","green pepper","red pepper","celery","jasmine rice","scallion"]
+    },
+    {
+        "name": "Penne with Acorn Squash and Pancetta",
+        "link": "http://www.thekitchn.com/recipe-penne-with-acorn-squash-and-pancetta-63917",
+        "image": "http://atmedia.imgix.net/0655293623478dcea3ee329c1600d8ed5ab8a548?auto=compress&w=610.0&fit=max",
+        "ingredients": ["acorn squash","penne","pancetta","vegetable stock","fresh rosemary","parmesan"]
+    },
+    {
+        "name": "Curried Roasted Eggplant with Smoked Cardamom and Coconut Milk",
+        "link": "http://bojongourmet.com/2014/09/curried-roasted-eggplant-with-smoked/",
+        "image": "http://cf.bojongourmet.com/wp-content/uploads/2014/09/eggplant-curry-202.jpg",
+        "ingredients": ["eggplants","coconut oil","yellow onion","dried chile","ginger","tomatoes","coconut milk","cilantro","mint","Greek yogurt","basmati rice"]
     }
 ]}
