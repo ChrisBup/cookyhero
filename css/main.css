@@ -238,7 +238,7 @@ header svg path {
 /* main */
 
 .main-container {
-  padding-top: 60px;
+  padding: 60px 0 10px 0;
 }
 
 @media screen and (min-width: 48em) {
@@ -278,6 +278,11 @@ header svg path {
 
 img.dish-pic {
   width: 100%;
+}
+
+img.lazy {
+  opacity: 0;
+  transition: opacity .3s ease-in;
 }
 
 .clicker {
@@ -383,9 +388,21 @@ a.button:hover {
 }
 
 .header-1, .header-2, .header-3, .header-4 {
-  padding: 0 0 0 .5em;
-  display: table-cell;
+  padding: 0;
+  display: block;
   vertical-align: middle
+}
+
+@media screen and (min-width: 30em) {
+  .header-1, .header-2, .header-3, .header-4 {
+    display: table-cell;
+    padding: 0 0 0 .5em;
+  }
+  .form-jump {
+    display: table-cell;
+    text-align: right;
+    width: 100%;
+  }
 }
 
 .lemon-icon, .carrot-icon, .broccoli-icon, .eggplant-icon {
@@ -419,12 +436,33 @@ a.button:hover {
 }
 
 .form-jump {
-  display: table-cell;
-  text-align: right;
+  display: block;
+  text-align: left;
+  padding: 0;
   width: 100%;
 }
 
 /* form */
+
+.success {
+  margin: 0 0 2em 0;
+  padding: 1em;
+  background: #80E993;
+}
+
+img.success-pic {
+  width: 100%;
+}
+
+@media screen and (min-width: 48em) {
+  .success {
+    padding: 2em;
+  }
+}
+
+img.success-pic {
+  width: 100%;
+}
 
 .form-header-wrapper {
   padding-bottom: 2em;
@@ -456,7 +494,7 @@ a.button:hover {
   margin: 0 0 2em 0;
   padding: 1em;
   outline: 0;
-  width: 75%;
+  width: 100%;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -494,12 +532,30 @@ a.button:hover {
   font-style: normal;
   text-transform: uppercase;
   letter-spacing: 2px;
-  width: 75%;
+  width: 100%;
   border: none;
   border-radius: 2px;
 }
 .form-wrapper button:hover {
   background: #3EB097;
+}
+
+@media screen and (min-width: 30em) {
+  .form-wrapper input[type="text"],
+  .form-wrapper input[type="date"],
+  .form-wrapper input[type="datetime"],
+  .form-wrapper input[type="email"],
+  .form-wrapper input[type="number"],
+  .form-wrapper input[type="search"],
+  .form-wrapper input[type="time"],
+  .form-wrapper input[type="url"],
+  .form-wrapper textarea,
+  .form-wrapper select {
+    width: 75%;
+  }
+  .form-wrapper button {
+    width: 75%;
+  }
 }
 
 /* footer */

@@ -1,7 +1,7 @@
 # CookyHero
 A Simple Grocery List App that began with a Google doc and a dream.
 
-The site was hand-rolled with JSON/AJAX.
+The site was hand-rolled with JSON/AJAX, Mustache/Handlebars.js, and Unveil.js.
 
 Hit me up if you have any questions or suggestions. Thanks for checking it out!
 

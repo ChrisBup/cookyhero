@@ -13,6 +13,12 @@ $(function() {
   // Insert the HTML code into the page
   $('.sub-container').html(html);
 
+  $("img.lazy").unveil(200, function() {
+    $(this).load(function() {
+      this.style.opacity = 1;
+    });
+  });
+
   $('.checkbox').click(function() {
     $( this ).toggleClass( "checked" );
   });

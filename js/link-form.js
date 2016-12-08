@@ -31,8 +31,11 @@ $("#recipe-link-form").submit(function(event){
 
     // Callback handler that will be called on success
     request.done(function (response, textStatus, jqXHR){
+        document.getElementById("recipe-link-form").reset()
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        $(".success-wrapper").html("<h2 class='success'>Thanks for submitting!<br><br><img class='success-pic' src='http://a.fod4.com/misc/Slide%20Like%20a%20Boss.gif' alt='slip n slide' /></h2>");
         // Log a message to the console
-        console.log("Hooray, it worked!");
+        console.log("Hooray, recipe link submitted!");
         console.log(response);
         console.log(textStatus);
         console.log(jqXHR);
@@ -42,7 +45,7 @@ $("#recipe-link-form").submit(function(event){
     request.fail(function (jqXHR, textStatus, errorThrown){
         // Log the error to the console
         console.error(
-            "The following error occurred: "+
+            "Uh-oh, the following error occurred: "+
             textStatus, errorThrown
         );
     });
@@ -90,9 +93,9 @@ $("#recipe-custom-form").submit(function(event){
     request.done(function (response, textStatus, jqXHR){
         document.getElementById("recipe-custom-form").reset()
         $("html, body").animate({ scrollTop: 0 }, "slow");
-        $(".success").text("Thanks for submitting! Here's a cookie.");
+        $(".success-wrapper").html("<h2 class='success'>Thanks for submitting!<br><br><img class='success-pic' src='http://a.fod4.com/misc/Slide%20Like%20a%20Boss.gif' alt='slip n slide' /></h2>");
         // Log a message to the console
-        console.log("Hooray, it worked!");
+        console.log("Hooray, custom recipe submitted!");
         console.log(response);
         console.log(textStatus);
         console.log(jqXHR);
@@ -102,7 +105,7 @@ $("#recipe-custom-form").submit(function(event){
     request.fail(function (jqXHR, textStatus, errorThrown){
         // Log the error to the console
         console.error(
-            "The following error occurred: "+
+            "Uh-oh, the following error occurred: "+
             textStatus, errorThrown
         );
     });
