@@ -33,7 +33,7 @@ $("#recipe-link-form").submit(function(event){
     request.done(function (response, textStatus, jqXHR){
         document.getElementById("recipe-link-form").reset()
         $("html, body").animate({ scrollTop: 0 }, "slow");
-        $(".success-wrapper").html("<h2 class='success'>Thanks for submitting!<br><br><img class='success-pic' src='http://a.fod4.com/misc/Slide%20Like%20a%20Boss.gif' alt='slip n slide' /></h2>");
+        $(".success-wrapper").hide().html("<h2 class='success'>Thanks for submitting!<br><br><img class='success-pic' src='http://a.fod4.com/misc/Slide%20Like%20a%20Boss.gif' alt='slip n slide' /></h2>").slideDown("slow");
         // Log a message to the console
         console.log("Hooray, recipe link submitted!");
         console.log(response);
@@ -93,7 +93,7 @@ $("#recipe-custom-form").submit(function(event){
     request.done(function (response, textStatus, jqXHR){
         document.getElementById("recipe-custom-form").reset()
         $("html, body").animate({ scrollTop: 0 }, "slow");
-        $(".success-wrapper").html("<h2 class='success'>Thanks for submitting!<br><br><img class='success-pic' src='http://a.fod4.com/misc/Slide%20Like%20a%20Boss.gif' alt='slip n slide' /></h2>");
+        $(".success-wrapper").hide().html("<h2 class='success'>Thanks for submitting!<br><br><img class='success-pic' src='http://a.fod4.com/misc/Slide%20Like%20a%20Boss.gif' alt='slip n slide' /></h2>").slideDown("slow");
         // Log a message to the console
         console.log("Hooray, custom recipe submitted!");
         console.log(response);

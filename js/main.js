@@ -52,3 +52,22 @@ $("a[href='#top']").click(function() {
   $("html, body").animate({ scrollTop: 0 }, "slow");
   return false;
 });
+
+$('.form-jump').on('click', function(){
+  $(".success-wrapper").slideUp();
+  $('#recipe-custom-container').toggleClass('go-right-in');
+  $('#recipe-link-container').toggleClass('go-right-out');
+  $(this).toggleClass("form-jump-currently-custom");
+  $(this).toggleClass("form-jump-currently-link");
+  if ($(this).hasClass("form-jump-currently-custom")) {
+    $(this).fadeOut(function() {
+      $(this).text("← Or Submit a Link")
+    }).fadeIn();
+  } else if ($(this).hasClass("form-jump-currently-link")) {
+    $(this).fadeOut(function() {
+      $(this).text("Or Submit Your Own Recipe →")
+    }).fadeIn();
+  } else {
+    console.log("uh-oh")
+  }
+})

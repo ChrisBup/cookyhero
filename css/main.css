@@ -165,7 +165,7 @@ nav a.what {
 }
 @media screen and (min-width: 62em) {
   nav a.what {
-    width: 40%;
+    width: 25%;
   }
 }
 nav a:hover {
@@ -419,12 +419,7 @@ a.button:hover {
   margin-top: 1.5em;
 }
 
-.recipe-form-header {
-  width: 60%;
-}
-
 .form-jump {
-  display: table-cell;
   text-align: right;
   padding: 0;
   width: 100%;
@@ -444,6 +439,7 @@ a.button:hover {
 /* form */
 
 .success {
+  color: #4BBA86;
   margin: 0 0 2em 0;
   padding: 1em;
   background: #80E993;
@@ -539,25 +535,73 @@ img.success-pic {
   background: #3EB097;
 }
 
-@media screen and (min-width: 30em) {
-  .form-wrapper input[type="text"],
-  .form-wrapper input[type="date"],
-  .form-wrapper input[type="datetime"],
-  .form-wrapper input[type="email"],
-  .form-wrapper input[type="number"],
-  .form-wrapper input[type="search"],
-  .form-wrapper input[type="time"],
-  .form-wrapper input[type="url"],
-  .form-wrapper textarea,
-  .form-wrapper select {
-    width: 75%;
-  }
-  .form-wrapper button {
-    width: 75%;
-  }
+/* transitions */
+
+.toggle-forms-wrapper {
+  text-align: right;
+  padding-bottom: 1em;
+  border-bottom: 2pt dotted #d2d9dd;
+}
+
+.form-container {
+  width: 600px;
+  height: 900px;
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#recipe-link-container {
+  width: 600px;
+  height: 900px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+
+#recipe-custom-container  {
+  width: 600px;
+  height: 900px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  top: 50%;
+  transform: translateY(-150%);
+  left: -600px;
+}
+
+.go-right-out {
+  left: 600px !important;
+}
+
+.go-right-in {
+  left: 0 !important;
+}
+
+.link-slide-right {
+  -webkit-transition: left 0.3s ease-in-out;
+  -moz-transition: left 0.3s ease-in-out;
+  -o-transition: left 0.3s ease-in-out;
+  transition: left 0.3s ease-in-out;
+}
+
+.custom-slide-right {
+  -webkit-transition: left 0.3s ease-in-out;
+  -moz-transition: left 0.3s ease-in-out;
+  -o-transition: left 0.3s ease-in-out;
+  transition: left 0.3s ease-in-out;
 }
 
 /* footer */
+
+.submit-footer {
+  margin-top: 900px;
+}
 
 .footer-container {
   background: #262F38;

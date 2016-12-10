@@ -30,10 +30,10 @@
           <defs>
             <linearGradient id="gradient" x1="100%" y1="100%">
               <stop offset="0%" stop-color="#311B92" stop-opacity=".5">
-                <animate attributeName="stop-color" values="#80E993;#3A6469;#64ADB5;#311B92;#FFF684;#3EB097;#311B7E;#311B92;#B6ABD9;#262F38;#b3d4fc" dur="10s" repeatCount="indefinite" />
+                <animate attributeName="stop-color" values="#D5CCFF;#b3d4fc;#FF4500;#F3EB7E;#FF495F;#FF6F6F;#FFF684;#FF4500;#80E993;#FF495F;#FF6F6F;#DEFF5C;#FFCD5C;#FF364F;#D5CCFF;#b3d4fc;#FF4500;#F3EB7E;#FF495F;#FF6F6F;#FFF684;#FF4500;#80E993;#FF495F;#FF6F6F;#DEFF5C;#FFCD5C;#FF364F;#80E993;#3A6469;#311B92;#FFF684;#3EB097;#311B7E;#311B92;#B6ABD9;#262F38;#b3d4fc" dur="30s" repeatCount="indefinite" />
               </stop>
-              <stop offset="100%" stop-color="#262F38" stop-opacity=".5">
-                <animate attributeName="stop-color" values="#49596B;#b3d4fc;#262F38;#3A6469;#311B92;#50E3C2;#311B92;#72C5CF;#B6ABD9;#80E993;#FFF684" dur="10s" repeatCount="indefinite" />
+              <stop offset="100%" stop-color="#311B92" stop-opacity=".5">
+                <animate attributeName="stop-color" values="#49596B;#b3d4fc;#262F38;#311B92;#50E3C2;#311B92;#72C5CF;#B6ABD9;#80E993;#FFF684;#D5CCFF;#b3d4fc;#FF4500;#F3EB7E;#FF495F;#FF6F6F;#FFF684;#FF4500;#80E993;#FF495F;#FF6F6F;#DEFF5C;#FFCD5C;#FF364F;#D5CCFF;#b3d4fc;#FF4500;#F3EB7E;#FF495F;#FF6F6F;#FFF684;#FF4500;#80E993;#FF495F;#FF6F6F;#DEFF5C;#FFCD5C;#FF364F" dur="30s" repeatCount="indefinite" />
                 <animate attributeName="offset" values=".95;.50;.70;.80;.50;.30;.70;.80;.90;.70;.95" dur="10s" repeatCount="indefinite" />
               </stop>
             </linearGradient>
@@ -71,7 +71,7 @@
       <nav>
         <ul>
           <li><a class="what" href="/what.html">What?</a></li>
-          <li><a class="submit" href="/submit-link.html">Submit a Recipe</a></li>
+          <li><a class="submit" href="/submit.html">Submit a Recipe</a></li>
         </ul>
       </nav>
     </header>
@@ -79,31 +79,59 @@
 
   <div class="main-container">
     <div class="wrapper submit-container clearfix">
+      <div class="toggle-forms-wrapper">
+        <a href="#" class="form-jump form-jump-currently-link">Or Submit Your Own Recipe →</a>
+      </div>
 
-      <article>
-        <section class="recipe-submit-section">
-          <div class='success-wrapper'></div>
-          <div class="header-1-wrapper form-header-wrapper">
-            <img src="img/eggplant.svg" alt="eggplant" class="eggplant-icon">
-            <h1 class="header-1 recipe-form-header">Submit a Recipe Link</h1>
-            <a href="/submit-recipe.html" class="form-jump">Or Submit Your Own Recipe →</a>
-          </div>
-          <form id='recipe-link-form' class="form-wrapper">
-            <label>Name</label>
-            <input id='name' name='name' type='text'>
-            <label>Email Address</label>
-            <input id='email' name='email' type='email'>
-            <label>Link</label>
-            <input id='link' name='link' type='url'>
-            <button type='submit'>Submit Recipe</button>
-          </form>
-        </section>
-      </article>
+      <div class="form-container">
+        <div id="recipe-link-container" class="link-slide-right">
+          <article>
+            <section class="recipe-submit-section">
+              <div class='success-wrapper'></div>
+              <div class="header-1-wrapper form-header-wrapper">
+                <img src="img/eggplant.svg" alt="eggplant" class="eggplant-icon">
+                <h1 class="header-1 recipe-form-header">Submit a Recipe Link</h1>
+              </div>
+              <form id='recipe-link-form' class="form-wrapper">
+                <label>Name</label>
+                <input id='name' name='name' type='text'>
+                <label>Email Address</label>
+                <input id='email' name='email' type='email'>
+                <label>Link</label>
+                <input id='link' name='link' type='url'>
+                <button type='submit'>Submit Recipe</button>
+              </form>
+            </section>
+          </article>
+        </div>
+        <div id="recipe-custom-container" class="custom-slide-right">
+          <article>
+            <section class="recipe-submit-section">
+              <div class='success-wrapper'></div>
+              <div class="header-1-wrapper form-header-wrapper">
+                <img src="img/lemon.svg" alt="lemon" class="lemon-icon">
+                <h1 class="header-1 recipe-form-header">Submit Your Own Recipe</h1>
+              </div>
+              <form id='recipe-custom-form' class="form-wrapper">
+                <label>Name</label>
+                <input id='name' name='name' type='text'>
+                <label>Email Address</label>
+                <input id='email' name='email' type='email'>
+                <label>Ingredients</label>
+                <textarea id='ingredients' name='ingredients' rows='5'></textarea>
+                <label>Instructions</label>
+                <textarea id='instructions' name='instructions' rows='5'></textarea>
+                <button type='submit'>Submit Recipe</button>
+              </form>
+            </section>
+          </article>
+        </div>
+      </div>
 
-    </div> <!-- #main -->
-  </div> <!-- #main-container -->
+    </div> <!-- .submit-container -->
+  </div> <!-- .main-container -->
 
-  <div class="footer-container">
+  <div class="submit-footer footer-container">
     <footer class="wrapper">
       <div class="share-buttons">
         <a href="http://www.facebook.com/sharer.php?u=http://www.cookyhero.com" target="_blank">
