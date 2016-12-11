@@ -35,15 +35,14 @@ $xdesktop: 75em;
 }
 
 html {
-  color: #222;
+  color: #262F38;
   font-size: 1em;
   line-height: 1.4;
 }
 
 body {
-  font: 16px/26px 'Karla', Helvetica, Helvetica Neue, Arial;
+  font-family: 'Asap', sans-serif;
   font-weight: 400;
-  font-style: normal;
   background: #F7FBFF;
 }
 
@@ -324,12 +323,15 @@ img.reveal {
 h3.recipe-title {
   padding-left: 20px;
   font-weight: 700;
+  font-size: 1.6em;
+  color: #311B92;
   text-transform: capitalize;
 }
 
 ul.ingredients-list {
   list-style: none;
   padding-left: 20px;
+  color: #3A6469;;
 }
 
 .checkbox {
@@ -345,7 +347,7 @@ ul.ingredients-list {
 }
 
 .checked {
-  background: #80E993;
+  background: #50E3C2;
 }
 
 .button-frame {
