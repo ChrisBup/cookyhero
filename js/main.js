@@ -27,25 +27,27 @@ $(function() {
 
 }); //function
 
-function toggle_visibility(id) {
-  var e = document.getElementById(id);
-  if ( $(e).is( ":hidden" ) ) {
-    $(e).slideDown( "fast" );
+function toggle_visibility(e, id) {
+  e = e || window.event; // Cross browser support
+  var elem = document.getElementById(id);
+  if ( $(elem).is( ":hidden" ) ) {
+    $(elem).slideDown( "fast" );
   } else {
-    $(e).slideUp( "fast" );
+    $(elem).slideUp( "fast" );
   }
-  event.preventDefault();
+  e.preventDefault();
 }
 
-function change_icon(id)  {
-  var e = document.getElementById(id);
-  var src = $(e).attr('src');
+function change_icon(e, id)  {
+  e = e || window.event; // Cross browser support
+  var elem = document.getElementById(id);
+  var src = $(elem).attr('src');
   if ( src == "img/list-icon.svg" ) {
-    $(e).attr('src',"img/x-icon.svg");
+    $(elem).attr('src',"img/x-icon.svg");
   } else {
-    $(e).attr('src',"img/list-icon.svg");
+    $(elem).attr('src',"img/list-icon.svg");
   }
-  event.preventDefault();
+  e.preventDefault();
 }
 
 $("a[href='#top']").click(function() {
