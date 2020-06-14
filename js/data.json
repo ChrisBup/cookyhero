@@ -531,7 +531,7 @@
         "name": "Crispy Greek-style Pie",
         "link": "http://www.bbcgoodfood.com/recipes/4540/crispy-greekstyle-pie-",
         "image": "http://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--491503_12.jpg?itok=iW13g5ug",
-        "ingredients": ["spinach","jar of sundried tomato in oil","feta","eggs","filo pastry"]
+        "ingredients": ["spinach","jar of sun-dried tomato in oil","feta","eggs","filo pastry"]
     },
     {
         "name": "Vegetarian Gumbo",
@@ -735,6 +735,6 @@
         "name": "Cabbage and Potato Gratin",
         "link": "https://cooking.nytimes.com/recipes/1018004-cabbage-and-potato-gratin",
         "image": "https://static01.nyt.com/images/2016/03/02/dining/02MARTHA/02MARTHA-articleLarge.jpg",
-        "ingredients": ["cabbage","potatoes, such as russets, peeled and sliced","2 garlic cloves, peeled","milk","crème fraîche","gruyère","parmesan","sage"]
+        "ingredients": ["cabbage","potatoes","milk","crème fraîche","gruyère","parmesan","sage"]
     }
 ]}
