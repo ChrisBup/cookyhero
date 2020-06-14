@@ -276,6 +276,18 @@ header svg path {
   margin: 0 auto;
 }
 
+.no-img {
+  display: none;
+  height: 200px;
+  padding: 10px 20px;
+}
+.no-img h2 {
+  color: #262F38;
+}
+.no-img-dish-name {
+  color: #311B92;
+}
+
 img.dish-pic {
   width: 100%;
 }
@@ -352,7 +364,7 @@ ul.ingredients-list {
 
 .button-frame {
   width: 100%;
-  padding: 20px 0;
+  padding: 0;
   margin: 0 auto;
   background: #72C5CF;
   text-transform: uppercase;
@@ -364,6 +376,8 @@ ul.ingredients-list {
 }
 
 a.button {
+  display: block;
+  padding: 20px 0;
   color: #F7FBFF;
   text-decoration: none;
 }
@@ -748,6 +762,7 @@ img.success-pic {
 }
 
 .footer-container {
+  margin-top: 100px;
   background: #262F38;
 }
 .footer-container footer {

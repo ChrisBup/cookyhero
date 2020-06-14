@@ -20,7 +20,7 @@
     {
         "name": "Butternut Squash Strozzapreti",
         "link": "http://www.yummly.com/recipe/Butternut-squash-strozzapreti-344545?columns=5",
-        "image": "http://www.yummly.com/dish/wp-content/uploads/2013/10/Butternut-Squash-Strozzapreti-from-Camille-Styles.jpg",
+        "image": "https://lh5.ggpht.com/4NytPAe4QCUldVE2--VdlZLPE9V6UcqljG8xc9tn6QnTZqz9Hfo_jRbsQVZy8SD4G6TomM8FbfZT0DcA3Qzlvpw=s640-c-rw-v1-e365",
         "ingredients": ["butternut squash","fresh sage","strozzapreti or any tube short pasta","parmesan"]
     },
     {
@@ -31,15 +31,15 @@
     },
     {
         "name": "Cast iron Pizza",
-        "link": "http://www.macheesmo.com/cast-iron-pizza/",
-        "image": "http://i2.wp.com/www.macheesmo.com/wp-content/uploads/2011/03/castironpizza1_550.jpg?zoom=2&resize=550%2C367",
-        "ingredients": ["ball of dough","tomatoes","mozzarella","basil","scallions"]
+        "link": "https://www.bonappetit.com/recipe/cast-iron-pizza-with-fennel-and-sausage",
+        "image": "https://assets.bonappetit.com/photos/5aa94eb56ed79626bc262c39/16:9/w_2560,c_limit/cast-iron-pizza-with-fennel-and-sausage.jpg",
+        "ingredients": ["ball of dough","crushed tomatoes","onions","mozzarella","basil","fennel bulb"]
     },
     {
         "name": "Chicken & Summer Vegetable Tostadas",
         "link": "http://www.myrecipes.com/recipe/chicken-summer-vegetable-tostadas",
-        "image": "http://cdn-image.myrecipes.com/sites/default/files/styles/300x300/public/image/recipes/ck/12/11/chicken-summer-vegetable-tostadas-ck-x.jpg?itok=9r3AkY5g",
-        "ingredients": ["12oz chicken breast tenders","onion","corn","zucchini","salsa verde","cilantro","tortillas","shredded cheese"]
+        "image": "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fimage%2F2018%2F07%2Fmain%2Ftostada.jpg%3Fitok%3DBbPjiAzA",
+        "ingredients": ["chicken breast","onion","corn","zucchini","salsa verde","cilantro","tortillas","shredded cheese"]
     },
     {
         "name": "Chicken Kottu Roti",
@@ -56,14 +56,8 @@
     {
         "name": "Eggplant Parmesan Rollatini",
         "link": "http://www.realsimple.com/food-recipes/browse-all-recipes/eggplant-rollatini",
-        "image": "http://cdn-image.realsimple.com/sites/default/files/styles/rs_main_image/public/image/images/1203/eggplant-parmesan-rollatini_300.jpg?itok=qjQKrzqT",
+        "image": "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&url=https%3A%2F%2Ftimeincsecure-a.akamaihd.net%2Frtmp_uds%2F507936866%2F201703%2F2047%2F507936866_5361842773001_5360841536001-vs.jpg%3FpubId%3D507936866%26videoId%3D5360841536001",
         "ingredients": ["eggplant","eggs","bread crumbs","marinara sauce","mozzarella","ricotta ","parmesan"]
-    },
-    {
-        "name": "Fettuccine Alfredo",
-        "link": "http://www.foodnetwork.com/recipes/giada-de-laurentiis/fettuccine-alfredo-recipe.html",
-        "image": "http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2004/5/10/0/ei1c11_fettuccine_alfredo1.jpg.rend.sni12col.landscape.jpeg",
-        "ingredients": ["fettuccine","heavy cream","lemon","parmesan","nutmeg"]
     },
     {
         "name": "Green Rice",
@@ -72,7 +66,7 @@
         "ingredients": ["spring onions","rice","eggs","milk","grated sharp cheddar","parsley or mustard greens"]
     },
     {
-        "name": "kale and quinoa patties",
+        "name": "Kale and Quinoa Patties",
         "link": "http://everydaydishes.com/simple-food-recipes/healthy-kale-quinoa-patties-recipe/",
         "image": "http://everydaydishes.com/wp-content/uploads/2014/02/kale-and-quinoa-patties-everydaydishes_com-H.jpg",
         "ingredients": ["quinoa","eggs","parmesan","chives","onion","kale"]
@@ -87,10 +81,10 @@
         "name": "Grilled Avocado Tacos with Cilantro Yogurt Sauce",
         "link": "http://honestfare.com/grilled-avocado-tacos-with-cilantro-yogurt-sauce/",
         "image": "http://honestfare.com/wp-content/uploads/2014/06/grilled-avocado-tacos-main-honestfare.com_.jpg",
-        "ingredients": ["cilantro","limes","Greek yogurt","jalepeño","avocadoes","tortillas","red cabbage","queso blanco or feta"]
+        "ingredients": ["cilantro","limes","Greek yogurt","jalepeño","avocados","tortillas","red cabbage","queso blanco or feta"]
     },
     {
-        "name": "japanese vegetable pancakes",
+        "name": "Japanese Vegetable Pancakes",
         "link": "http://smittenkitchen.com/blog/2013/05/japanese-cabbage-and-vegetable-pancakes/",
         "image": "http://farm8.staticflickr.com/7291/8740383324_873983f30a.jpg",
         "ingredients": ["cabbage","carrots","kale","scallions","eggs","Worcestershire sauce","rice cooking wine or sake","ginger"]
@@ -114,10 +108,10 @@
         "ingredients": ["tuna","capers","fennel","parsley","baguette"]
     },
     {
-        "name": "Paneer Bhurji or Indian-spiced Scrambled Paneer with Peas",
-        "link": "http://www.biggirlssmallkitchen.com/2014/03/paneer-bhurji-or-indian-spiced-scrambled-paneer-with-peas.html",
-        "image": "http://www.biggirlssmallkitchen.com/wp-content/uploads/2014/03/IMG_9152-600x400.jpg",
-        "ingredients": ["paneer","ginger","onion","serrano chilis","cloves","tomatoes","lemon","frozen peas","half and half","scallions","naan"]
+        "name": "Indian Punjabi Paneer Bhurji",
+        "link": "https://www.chefdehome.com/recipes/566/indian-punjabi-paneer-bhurji",
+        "image": "https://media.chefdehome.com/750/0/0/paneer-burji/indian-paneer-bhurji-easy-chefdehome-5.jpg",
+        "ingredients": ["paneer","green peas","tomatoes","red onion","ginger","cumin seeds","turmeric","coriander","hot green pepper","cilantro","cashews"]
     },
     {
         "name": "Pasta with Roasted Cauliflower, Parsley, and Breadcrumbs",
@@ -142,12 +136,6 @@
         "link": "http://blog.fatfreevegan.com/2010/10/ridiculously-easy-vegetable-lentil-stew.html",
         "image": "http://blog.fatfreevegan.com/wp-content/uploads/2010/10/lentil-veg-stew.jpg",
         "ingredients": ["frozen vegetables","15oz can diced tomatoes","15oz can cooked lentils","vegetable broth","canned or cooked pumpkin","onion","quinoa"]
-    },
-    {
-        "name": "Rigatoni with Goat Cheese",
-        "link": "http://www.marthastewart.com/355489/rigatoni-goat-cheese",
-        "image": "http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d27/0703_edf_rigatonigoatcheese/0703_edf_rigatonigoatcheese_vert.jpg?itok=QbABOUk4",
-        "ingredients": ["rigatoni","crumbled goat cheese","parmesan"]
     },
     {
         "name": "Roasted Carrots with Za'atar",
@@ -186,13 +174,13 @@
         "ingredients": ["rice noodles","sesame oil","Chinese sesame paste or tahini","peanut butter","Chinese rice vinegar","ginger","Chili-garlic paste","cucumber","roasted salted peanuts","fresh mint","fresh cilantro"]
     },
     {
-        "name": "mushrooms and greens with toast",
+        "name": "Mushrooms and Greens with Toast",
         "link": "http://smittenkitchen.com/blog/2015/05/mushrooms-and-greens-with-toast/",
         "image": "https://smittenkitchendotcom.files.wordpress.com/2015/05/mushroooms-and-greens-with-toast1.jpg",
         "ingredients": ["mixed mushrooms","crusty bread","shallots","red chile","fresh greens","melting cheese"]
     },
     {
-        "name": "crispy frizzled artichokes",
+        "name": "Crispy Frizzled Artichokes",
         "link": "http://smittenkitchen.com/blog/2015/06/crispy-frizzled-artichokes/",
         "image": "https://smittenkitchendotcom.files.wordpress.com/2015/06/crispy-frizzled-artichokes1.jpg",
         "ingredients": ["artichokes","lemons","parsley"]
@@ -237,7 +225,7 @@
         "name": "Zucchini and Bean Salad With Bulgur",
         "link": "http://www.realsimple.com/food-recipes/browse-all-recipes/zucchini-bean-bulgur-salad",
         "image": "http://cdn-image.realsimple.com/sites/default/files/styles/rs_photo_gallery_vert/public/zucchini-bulgur-salad.jpg?itok=N0yW_-H3",
-        "ingredients": ["zucchini","kidney beans","shallost","salted roasted almonds","fresh dill","bulgur","goat cheese"]
+        "ingredients": ["zucchini","kidney beans","shallots","salted roasted almonds","fresh dill","bulgur","goat cheese"]
     },
     {
         "name": "Zucchini Lasagna",
@@ -254,7 +242,7 @@
     {
         "name": "Kitchari",
         "link": "http://www.sunwarrior.com/news/make-kitchari-healing-stew/",
-        "image": "https://sunwarrior.com/uploads/health_hub/article/2014/03/mung_dhal_recipe_pic.jpg",
+        "image": "https://i.shgcdn.com/9cfa3b28-f6bf-4592-94bf-c9df345110f7/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
         "ingredients": ["basmati rice or quinoa","yellow split mung beans","fennel seeds","ginger","Swiss chard, spinach, or kale","carrots","sweet potato","celery","asparagus","green beans","beets","cilantro","parsley","dill","basil","lime"]
     },
     {
@@ -296,7 +284,7 @@
     {
         "name": "Butternut Squash Soup",
         "link": "http://www.foodnetwork.com/recipes/food-network-kitchens/butternut-squash-soup-recipe1.html?vty=recipes/butternut-squash-soup-recipe.html",
-        "image": "http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2011/11/23/1/FN_butternut-soup-008_s4x3.jpg.rend.sni12col.landscape.jpeg",
+        "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/23/1/FN_butternut-soup-008_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371602919396.jpeg",
         "ingredients": ["butternut squash","onion","vegetable stock","nutmeg"]
     },
     {
@@ -306,22 +294,22 @@
         "ingredients": ["bread","tomatoes","cucumber","red bell pepper","yellow bell pepper","red onion","basil","capers"]
     },
     {
-        "name": "Rustic Roasted Vegetable Tart 1",
+        "name": "Rustic Roasted Vegetable Tart with Zucchini",
         "link": "http://www.tasteofhome.com/recipes/rustic-roasted-vegetable-tart",
         "image": "http://cdn1.tmbi.com/TOH/Images/Photos/37/300x300/exps40900_TH1421350D39B.jpg",
         "ingredients": ["eggplant","zucchini","tomatoes","sweet red pepper","refrigerated pie pastry","cornmeal","shredded Parmesan cheese","fresh basil"]
     },
     {
-        "name": "Roasted Vegetable Tart 2",
+        "name": "Roasted Vegetable Tart with Sweet Potato",
         "link": "http://www.bonappetit.com/recipe/roasted-vegetable-tart",
-        "image": "http://www.bonappetit.com/wp-content/uploads/2011/12/roasted-vegetable-tart-940x560.jpg",
+        "image": "https://assets.bonappetit.com/photos/57afb82c1b33404414975e1b/16:9/w_2560,c_limit/roasted-vegetable-tart.jpg",
         "ingredients": ["all-purpose flour","red bell peppers","eggplant","sweet potatoes","tomatoes","onions","fennel bulb","fresh thyme","goat cheese","eggs","heavy cream"]
     },
     {
         "name": "Cauliflower & Potato Curry",
         "link": "http://www.bbcgoodfood.com/recipes/420629/cauliflower-and-potato-curry",
         "image": "http://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--265459_12.jpg?itok=UPN_u0uF",
-        "ingredients": ["onion","ginger","tomatoes","cauliflower","potatoes","green chilli","lemon","yogurt"]
+        "ingredients": ["onion","ginger","tomatoes","cauliflower","potatoes","green chile","lemon","yogurt"]
     },
     {
         "name": "Salmon in Creamy Zucchini Sauce",
@@ -330,7 +318,7 @@
         "ingredients": ["zucchini","zucchini flowers","salmon","lemon"]
     },
     {
-        "name": "devil’s chicken thighs + braised leeks",
+        "name": "Devil’s Chicken Thighs and Braised Leeks",
         "link": "http://smittenkitchen.com/blog/2009/02/devils-chicken-thighs-braised-leeks/",
         "image": "http://farm4.static.flickr.com/3462/3274789246_1631c961e7.jpg",
         "ingredients": ["chicken thighs","onion","thyme leaves","chiles de arbol","dry vermouth","breadcrumbs","parsley","shallots","egg","tarragon","chicken stock","leeks","dry white wine"]
@@ -339,7 +327,7 @@
         "name": "Pasta e Fagioli",
         "link": "http://www.foodnetwork.com/recipes/rachael-ray/pasta-and-beans-pasta-e-fagioli-recipe.html",
         "image": "http://images.food52.com/Jm7TfX1eIHypt7R59QMPYVO1VO0=/753x502/ee1c882d-7e45-4a63-8822-703aed27e554--Pasta_e_Fagioli.jpeg",
-        "ingredients": ["fresh rosemary","fresh thyme","fresh bay leaf","onion","carrot","celery","2 15oz cans cannellini beans","crushed tomatoes","chicken stock","ditalini","parmesan or romano","Crusty bread"]
+        "ingredients": ["fresh rosemary","fresh thyme","fresh bay leaf","onion","carrot","celery","2 15oz cans cannellini beans","crushed tomatoes","chicken stock","ditalini","parmesan or romano","crusty bread"]
     },
     {
         "name": "Eggplant Parmesan",
@@ -350,13 +338,13 @@
     {
         "name": "Southwest Tofu Scramble",
         "link": "http://minimalistbaker.com/southwest-tofu-scramble/",
-        "image": "http://cdn3.minimalistbaker.com/wp-content/uploads/2014/08/Easy-Southwest-Tofu-Scramble-10-ingredients-simple-preparation-and-SO-delicious-vegan-glutenfree2.jpg",
+        "image": "https://minimalistbaker.com/wp-content/uploads/2014/08/Easy-Southwest-Tofu-Scramble-10-ingredients-simple-preparation-and-SO-delicious-vegan-glutenfree2.jpg",
         "ingredients": ["tofu","red onion","red pepper","kale","salsa","cilantro","potatoes"]
     },
     {
         "name": "Curried Vegetable and Chickpea Stew",
         "link": "http://www.thekitchn.com/slowcooker-recipe-curried-vegetable-and-chickpea-stew-recipes-from-the-kitchn-67520",
-        "image": "http://p-fst2.pixstatic.com/54131925dbfa3f4337003520/_w.540_s.fit_/Slow-Cooker-Veggie-Curry-2.jpg",
+        "image": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fit,w_1460,h_2188/k%2Farchive%2F3a58ed8cacdf0e5c1979e5b9963f5625e6034896",
         "ingredients": ["onion","red or yellow","ginger","vegetable broth","2 15.5oz cans chickpeas","green bell pepper","red bell pepper","cauliflower","28oz can diced tomatoes","spinach","coconut milk"]
     },
     {
@@ -366,16 +354,10 @@
         "ingredients": ["cucumbers","tahini","lemon","red onion","mint","basil","parsley"]
     },
     {
-        "name": "Grilled Stuffed Jalapenos",
-        "link": "http://minimalistbaker.com/vegan-jalapeno-poppers/",
-        "image": "http://cdn.minimalistbaker.com/wp-content/uploads/2014/03/30-Minute-Vegan-Gluten-Free-Jalapeno-Poppers.jpg",
-        "ingredients": ["cheddar","goat cheese","cream cheese","scallions","cilantro","lime","tomatoes","jalapenos"]
-    },
-    {
         "name": "Pico de Gallo",
         "link": "http://www.foodnetwork.com/recipes/ree-drummond/pico-de-gallo-recipe.html",
         "image": "http://www.simplyscratch.com/wp-content/uploads/2010/04/salsa-fresca.jpg",
-        "ingredients": ["red onions","tomatoes","cilantro","jalapenos","lime"]
+        "ingredients": ["red onions","tomatoes","cilantro","jalapeños","lime"]
     },
     {
         "name": "Tomato Risotto",
@@ -393,12 +375,12 @@
         "name": "One Pan Mexican Quinoa",
         "link": "http://damndelicious.net/2014/04/09/one-pan-mexican-quinoa/",
         "image": "http://damndelicious.net/wp-content/uploads/2014/04/IMG_5402edit.jpg",
-        "ingredients": ["quinoa","vegetable broth","black beans","jalapeno","tomatoes","corn","avocado","cilantro","lime"]
+        "ingredients": ["quinoa","vegetable broth","black beans","jalapeño","tomatoes","corn","avocado","cilantro","lime"]
     },
     {
-        "name": "Labneh with olive oil and za'atar",
+        "name": "Labneh with Olive Oil and Za'atar",
         "link": "http://thelemonbowl.com/2014/05/labneh-with-olive-oil-and-zaatar.html",
-        "image": "http://cdn2.thelemonbowl.com/wp-content/uploads/2014/05/Labneh-with-Olive-Oil-and-Zaatar-The-Lemon-Bowl.jpg",
+        "image": "https://thelemonbowl.com/wp-content/uploads/2019/10/Labneh-with-Zaatar-Recipe.jpg",
         "ingredients": ["labneh","za'atar","pita or na'an"]
     },
     {
@@ -408,25 +390,19 @@
         "ingredients": ["freekeh, quinoa, or bulgur","cauliflower","sweet potatoes","fresh thyme, rosemary, etc.","apple","parsley","garlic","lemons"]
     },
     {
-        "name": "Slow cooker pork carnitas",
-        "link": "http://www.skinnytaste.com/2010/03/mexican-slow-cooked-pork-carnitas.html",
-        "image": "http://www.skinnytaste.com/wp-content/uploads/2010/03/porkcarnitas-550x825.jpg",
-        "ingredients": ["pork shoulder ","garlic","chipotle peppers in adobo sauce","chicken broth","cumin","bay leaves","garlic powder","dry adobo seasoning","tortillas","avocado","cilantro"]
-    },
-    {
         "name": "Quinoa Vegetable Soup",
         "link": "http://cookieandkate.com/2015/quinoa-vegetable-soup-recipe/",
         "image": "http://cookieandkate.com/images/2015/03/quinoa-vegetable-soup.jpg",
         "ingredients": ["kale","white onion","carrots","celery","zucchini","butternut squash","28 oz can diced tomatoes","vegetable broth","bay leaves","quinoa"]
     },
     {
-        "name": "zucchini stuffed with feta, pinenuts, and dill",
+        "name": "Zucchini Stuffed with Feta, Pine Nuts, and Dill",
         "link": "http://www.sassyradish.com/2007/07/tabloid-envy/",
         "image": "http://farm2.static.flickr.com/1282/798781164_2e7bfd63f1.jpg",
         "ingredients": ["zucchini","onions","feta","dill","pine nuts"]
     },
     {
-        "name": "za’atar roasted cauliflower",
+        "name": "Za’atar Roasted Cauliflower",
         "link": "http://www.sassyradish.com/2012/03/zaatar-roasted-cauliflower/",
         "image": "http://farm8.staticflickr.com/7180/6980097121_eca49a2524.jpg",
         "ingredients": ["cauliflower","za’atar","Greek yogurt","mango chutney","cilantro"]
@@ -438,25 +414,25 @@
         "ingredients": ["barley","vegetable broth","onion","fresh thyme","spinach","parsley","lemon","parmesan","chives"]
     },
     {
-        "name": "roasted tomatoes with goat cheese polenta",
+        "name": "Roasted Tomatoes with Goat Cheese Polenta",
         "link": "http://pinchofyum.com/roasted-tomatoes-with-goat-cheese-polenta",
         "image": "http://cdn.pinchofyum.com/wp-content/uploads/Roasted-Tomatoes-with-Spinach-and-Goat-Cheese-Polenta.jpg",
         "ingredients": ["cherry tomatoes","spinach","polenta","goat cheese"]
     },
     {
-        "name": "bangkok coconut curry noodle bowls",
+        "name": "Bangkok Coconut Curry Noodle Bowls",
         "link": "http://pinchofyum.com/bangkok-coconut-curry-noodle-bowls",
         "image": "http://cdn.pinchofyum.com/wp-content/uploads/Bangkok-Coconut-Curry-Noodle-Bowls-3.jpg",
         "ingredients": ["shallots","ginger","red curry paste","coconut milk","veggie broth","hot chili paste","fish sauce","rice noodles","onion","broccoli","carrots","asparagus","purple cabbage","sesame seeds","limes","basil"]
     },
     {
-        "name": "roasted garlic and white bean lasagna soup",
+        "name": "Roasted Garlic and White Bean Lasagna Soup",
         "link": "http://pinchofyum.com/roasted-garlic-white-bean-lasagna-soup",
         "image": "http://cdn.pinchofyum.com/wp-content/uploads/Lasagna-Soup-4.jpg",
         "ingredients": ["onion","tomato paste","28oz can fire roasted diced tomatoes","vegetable broth","white beans","campanile pasta","ricotta cheese","parmesan","lemon","parsley","basil"]
     },
     {
-        "name": "creamy thai sweet potato curry",
+        "name": "Creamy Thai Sweet Potato Curry",
         "link": "http://pinchofyum.com/creamy-thai-sweet-potato-curry",
         "image": "http://cdn.pinchofyum.com/wp-content/uploads/Sweet-Potato-Curry-3-2.jpg",
         "ingredients": ["shallots","sweet potatoes","spinach","curry paste","coconut milk","cilantro","fish sauce"]
@@ -489,7 +465,7 @@
         "name": "Sage & Nutmeg Butternut Squash Autumn Risotto",
         "link": "http://www.hippressurecooking.com/sage-nutmeg-butternut-squash-autumn-risotto/",
         "image": "img/butternut_squash_risotto.jpg",
-        "ingredients": ["butternut squash","arborio rice","white win","nutmeg"]
+        "ingredients": ["butternut squash","arborio rice","white wine","nutmeg"]
     },
     {
         "name": "Asparagus Spring Risotto & making micro stock",
@@ -534,7 +510,7 @@
         "ingredients": ["asparagus","double cream","parmesan","tagliatelle"]
     },
     {
-        "name": "Squash & coconut curry",
+        "name": "Squash & Coconut Curry",
         "link": "http://www.bbcgoodfood.com/recipes/2619/squash-and-coconut-curry",
         "image": "http://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe_images/recipe-image-legacy-id--338706_11.jpg?itok=Qs-kq0Ye",
         "ingredients": ["Madras curry paste","butternut squash","coconut milk","coriander"]
@@ -564,15 +540,201 @@
         "ingredients": ["tomato","onion","Worcestershire sauce","apple cider vinegar","nutmeg","vegetable broth","okra","red beans","cremini mushrooms","zucchini","green pepper","red pepper","celery","jasmine rice","scallion"]
     },
     {
-        "name": "Penne with Acorn Squash and Pancetta",
-        "link": "http://www.thekitchn.com/recipe-penne-with-acorn-squash-and-pancetta-63917",
-        "image": "http://atmedia.imgix.net/0655293623478dcea3ee329c1600d8ed5ab8a548?auto=compress&w=610.0&fit=max",
-        "ingredients": ["acorn squash","penne","pancetta","vegetable stock","fresh rosemary","parmesan"]
-    },
-    {
         "name": "Curried Roasted Eggplant with Smoked Cardamom and Coconut Milk",
         "link": "http://bojongourmet.com/2014/09/curried-roasted-eggplant-with-smoked/",
         "image": "http://cf.bojongourmet.com/wp-content/uploads/2014/09/eggplant-curry-202.jpg",
         "ingredients": ["eggplants","coconut oil","yellow onion","dried chile","ginger","tomatoes","coconut milk","cilantro","mint","Greek yogurt","basmati rice"]
+    },
+    {
+        "name": "Black Lentil Salad With Tzatziki and Avocado",
+        "link": "https://www.washingtonpost.com/recipes/black-lentil-salad-tzatziki-avocado-and-pea-shoots/14625/",
+        "image": "https://www.washingtonpost.com/rf/image_982w/2010-2019/WashingtonPost/2019/05/10/Food/Images/v-rr-lentils_01leadweb.jpg",
+        "ingredients": ["Greek yogurt", "cucumber", "fresh dill", "lemons", "black Beluga lentils", "green olives", "shallot", "parsley", "maple syrup", "avocados", "fresh pea shoots or leafy greens"]
+    },
+    {
+        "name": "White Bean and Radish Salad",
+        "link": "https://www.bonappetit.com/recipe/white-bean-and-radish-salad",
+        "image": "https://assets.bonappetit.com/photos/57ae12991b33404414975a07/16:9/w_2560,c_limit/white-bean-and-radish-salad.jpg",
+        "ingredients": ["anchovies","capers","parsley","white wine vinegar","radishes","scallions","cannellini beans","cured black olives"]
+    },
+    {
+        "name": "Spicy Sesame Zoodles with Crispy Tofu",
+        "link": "https://pinchofyum.com/sesame-zoodles",
+        "image": "https://pinchofyum.com/wp-content/uploads/Chili-Sesame-Zoodles-3-2-1.jpg",
+        "ingredients": ["peanut butter","sesame oil","soy sauce","rice vinegar","chili paste","ginger","tofu","zucchini","sesame seeds","scallions"]
+    },
+    {
+        "name": "Red Lentil Soup With Lemon",
+        "link": "https://cooking.nytimes.com/recipes/1016062-red-lentil-soup-with-lemon",
+        "image": "https://static01.nyt.com/images/2019/01/17/dining/mc-red-lentil-soup/merlin_146234352_d7bc8486-b067-4cff-a4c0-7741f166fb60-articleLarge.jpg",
+        "ingredients": ["onion","tomato paste","cumin","vegetable broth","red lentils","carrot","lemon","cilantro"]
+    },
+    {
+        "name": "Simple Ribollita",
+        "link": "https://www.bonappetit.com/recipe/simple-ribollita",
+        "image": "https://assets.bonappetit.com/photos/5c3f571634fa1c11d7172368/3:2/w_2560,c_limit/Basically-Ribollita-01.jpg",
+        "ingredients": ["onion","carrots","celery","kale","parmesan with rind","can whole peeled tomatoes","crusty bread","cannellini beans"]
+    },
+    {
+        "name": "Smashed Chickpea Salad",
+        "link": "https://www.bonappetit.com/story/smashed-chickpea-salad",
+        "image": "https://assets.bonappetit.com/photos/5e619a6fc636240008503665/16:9/w_2560%2Cc_limit/Basically-Chickpea-Salad-Sandwich.jpg",
+        "ingredients": ["chickpeas","pepperoncini or capers","lemon","scallions","harissa","Greek yogurt","tahini","mayo","Dijon mustard"]
+    },
+    {
+        "name": "Sweet Potato & Chickpea Buddha Bowl",
+        "link": "https://www.platingsandpairings.com/sweet-potato-chickpea-buddha-bowl/",
+        "image": "https://www.platingsandpairings.com/wp-content/uploads/2019/04/sweet-potato-buddha-bowls-15.jpg",
+        "ingredients": ["quinoa","sweet potatoes","nutritional yeast","cumin","red bell peppers","chickpeas","lime","cilantro","avocado","jalapeño","sour cream","sesame seeds"]
+    },
+    {
+        "name": "Ultimate Winter Bliss Bowls",
+        "link": "https://pinchofyum.com/the-ultimate-winter-bliss-bowls",
+        "image": "https://pinchofyum.com/wp-content/uploads/The-Ultimate-Bliss-Bowl-1-5.jpg",
+        "ingredients": ["carrots","cauliflower","cumin","spinach","red cabbage","jalapeño","pistachios","tahini","lemons","lentils","cilantro","parsley","jalapeño"]
+    },
+    {
+        "name": "Thai Chili Summer Corn Salad",
+        "link": "https://fitfoodiefinds.com/thai-chili-corn-salad/",
+        "image": "https://fitfoodiefinds.com/wp-content/uploads/2018/07/corn-salad2.jpg",
+        "ingredients": ["green curry paste","red chili paste","apple cider vinegar","lime","corn ears","carrots","red onion","red pepper","purple cabbage","cilantro","cotija cheese"]
+    },
+    {
+        "name": "Asian-Inspired Breakfast Bowl With Sesame Aioli",
+        "link": "https://www.kalememaybe.com/kalememaybe/2016/4/11/asian-inspired-breakfast-bowl-with-sesame-aioli",
+        "image": "https://images.squarespace-cdn.com/content/v1/554d5698e4b0e4053a33b9e5/1460400796398-DPJVHIAS989EZ2YMYLAK/ke17ZwdGBToddI8pDm48kGifSodES3zPVkbBfms6E6VZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpx21JYsRk-BgvsysYO5ij2EJkWRgYbGmS3eUfB1IruGJ21xjbTWPQGsqfGjEZNiuA8/image-asset.jpeg?format=1500w",
+        "ingredients": ["sweet potato","kale","egg","broccolini","scallions","avocado","vegenaise","sesame oil"]
+    },
+    {
+        "name": "Kale and Brussels Sprout Salad",
+        "link": "https://www.bonappetit.com/recipe/kale-and-brussels-sprout-salad",
+        "image": "https://assets.bonappetit.com/photos/57afbd3753e63daf11a4e68f/16:9/w_2560,c_limit/kale-and-brussels-sprout-salad.jpg",
+        "ingredients": ["lemon","Dijon mustard","shallot","Tuscan kale","brussels sprouts","almonds","pecorino"]
+    },
+    {
+        "name": "Cauliflower Cake",
+        "link": "https://www.epicurious.com/recipes/food/views/cauliflower-cake-51254830",
+        "image": "https://assets.epicurious.com/photos/54aae34e19925f464b39e9c0/6:4/w_620%2Ch_413/51254830_cauliflower-cake_1x1.jpg",
+        "ingredients": ["cauliflower","red onion","rosemary","eggs","basil","turmeric","parmesan","sesame seeds","nigella seeds"]
+    },
+    {
+        "name": "Roasted and Charred Broccoli with Peanuts",
+        "link": "https://www.bonappetit.com/recipe/roasted-and-charred-broccoli-with-peanuts",
+        "image": "https://assets.bonappetit.com/photos/57ad266cf1c801a1038bc9d8/16:9/w_2560,c_limit/roasted-and-charred-broccoli-with-peanuts.jpg",
+        "ingredients": ["broccoli","rice vinegar","unsalted, roasted peanuts","nutritional yeast","scallions"]
+    },
+    {
+        "name": "Bean and Walnut Salad with Fried Eggs",
+        "link": "https://www.bonappetit.com/recipe/bean-walnut-salad-fried-eggs",
+        "image": "https://assets.bonappetit.com/photos/57ad247a53e63daf11a4dc44/16:9/w_2560,c_limit/dinner-flageolet-bean-salad-fried-egg.jpg",
+        "ingredients": ["flageolet beans","thyme","dried chile de árbol","Dijon mustard","white wine vinegar","toasted walnuts","onions","parsley","fresh tarragon","eggs"]
+    },
+    {
+        "name": "Grouper Fillets With Ginger and Coconut Curry",
+        "link": "https://cooking.nytimes.com/recipes/1019967-grouper-fillets-with-ginger-and-coconut-curry",
+        "image": "https://static01.nyt.com/images/2019/02/20/dining/20villarex1/merlin_150673179_4dea3e99-91f6-45a5-9f33-f3c4141dfd0a-articleLarge.jpg",
+        "ingredients": ["grouper fillets","scallions","ginger","turmeric","carrot","snow peas","frozen green peas","coconut milk","red curry paste","cilantro"]
+    },
+    {
+        "name": "Spiced Chickpea Salad With Tahini and Pita Chips",
+        "link": "https://cooking.nytimes.com/recipes/1020187-spiced-chickpea-salad-with-tahini-and-pita-chips",
+        "image": "https://static01.nyt.com/images/2020/05/10/dining/30faqrex1/merlin_153889782_0ac0b415-2667-4236-bb80-3d3b141e43f2-articleLarge.jpg",
+        "ingredients": ["chickpeas","cumin","paprika","tahini","lemons","kale, chard or spinach","pita chips","parsley","mint","cucumbers"]
+    },
+    {
+        "name": "Farro Broccoli Bowl With Lemony Tahini ",
+        "link": "https://cooking.nytimes.com/recipes/1019878-farro-broccoli-bowl-with-lemony-tahini",
+        "image": "https://static01.nyt.com/images/2019/01/09/dining/09apperex1/09apperex1-articleLarge.jpg",
+        "ingredients": ["farro","eggs","broccoli","soy sauce","sesame oil","sesame seeds","turnips or radishes","scallion","hot green chillies","lemon","tahini"]
+    },
+    {
+        "name": "Panini With Artichoke Hearts, Spinach and Red Peppers",
+        "link": "https://cooking.nytimes.com/recipes/1012387-panini-with-artichoke-hearts-spinach-and-red-peppers",
+        "image": "https://static01.nyt.com/images/2009/04/10/health/artichoke.panino.jpg/artichoke.panino.jpg-articleLarge.jpg",
+        "ingredients": ["spinach","artichoke hearts","thyme","roasted sweet red peppers","fontina or gruyère","whole grain country bread"]
+    },
+    {
+        "name": "Cauliflower and Tomato Masala with Peas",
+        "link": "https://smittenkitchen.com/2019/02/cauliflower-and-tomato-masala-with-peas/",
+        "image": "https://i1.wp.com/smittenkitchen.com/wp-content/uploads//2019/02/cauliflower-and-tomato-masala-with-peas.jpg?fit=750%2C500&ssl=1",
+        "ingredients": ["cauliflower","cumin seeds","ginger","jalapeño","green chile","cilantro","turmeric","red chili powder","coriander","garam masala","tomato puree","green peas","lemon","flatbread"]
+    },
+    {
+        "name": "Crispy Rice and Egg Bowl with Ginger-Scallion Vinaigrette",
+        "link": "https://smittenkitchen.com/2019/01/crispy-rice-and-egg-bowl-with-ginger-scallion-vinaigrette/",
+        "image": "https://i2.wp.com/smittenkitchen.com/wp-content/uploads//2019/01/crispy-rice-and-egg-bowl-with-ginger-scallion-dressing.jpg?fit=750%2C500&ssl=1",
+        "ingredients": ["scallions","ginger","rice wine vinegar","carrots","cucumbers","rice","eggs","soy sauce or tamari","toasted sesame oil","sriracha or gochujang"]
+    },
+    {
+        "name": "Carrot Salad with Tahini and Crisped Chickpeas",
+        "link": "https://smittenkitchen.com/2014/05/carrot-salad-with-tahini-and-crisped-chickpeas/",
+        "image": "https://i1.wp.com/smittenkitchen.com/wp-content/uploads//2014/10/carrot-salad-with-tahini-and-crisped-chickpeas1.jpg?fit=640%2C427&ssl=1",
+        "ingredients": ["chickpeas","cumin","carrots","parsley","pistachios","lemon","tahini"]
+    },
+    {
+        "name": "Old Fashioned (Tofu) Chicken Salad",
+        "link": "https://blog.fatfreevegan.com/2012/06/old-fashioned-tofu-chicken-salad.html",
+        "image": "https://blog.fatfreevegan.com/wp-content/uploads/2012/06/vegan-chicken-salad-650v.jpg",
+        "ingredients": ["tofu","vegetable broth","soy sauce or tamari","thyme","sage","celery","vegan mayo","sweet relish","mustard","almonds","chives"]
+    },
+    {
+        "name": "Mashed Potato Salad With Scallions and Herbs",
+        "link": "https://cooking.nytimes.com/recipes/1018913-mashed-potato-salad-with-scallions-and-herbs",
+        "image": "https://static01.nyt.com/images/2017/09/06/dining/06Appetite1/06Appetite1-articleLarge.jpg",
+        "ingredients": ["red potatoes","lemon","rosemary","mayonnaise, sour cream or crème fraîche","Dijon mustard","scallions","parsley","basil or dill"]
+    },
+    {
+        "name": "Simple Vegan Potato Salad",
+        "link": "https://minimalistbaker.com/simple-vegan-potato-salad/",
+        "image": "https://minimalistbaker.com/wp-content/uploads/2016/12/Hearty-Zesty-Vegan-Potato-Salad-10-ingredients-vegetable-packed-SO-delicious-vegan-plantbased-glutenfree-potatosalad-healthy-recipe.jpg",
+        "ingredients": ["red potatoes","bell pepper","celery","red onion","raw cashews","white wine or apple cider vinegar","spicy mustard","dill","parsley"]
+    },
+    {
+        "name": "Curried Chickpea & Veggie “Noodle” Salad",
+        "link": "http://vegangela.com/2013/12/11/curried-chickpea-veggie-noodle-salad/",
+        "image": "https://vegangela.com/wp-content/uploads/2013/12/IMG_7005.jpg",
+        "ingredients": ["green cabbage","red bell pepper","carrots","zucchinis","scallions","cilantro","chickpeas","red chili flakes","tahini","lime","ginger"]
+    },
+    {
+        "name": "Homemade Vegetarian Chili",
+        "link": "https://cookieandkate.com/2015/vegetarian-chili-recipe/",
+        "image": "https://cookieandkate.com/images/2015/11/vegetarian-chili-recipe-6.jpg",
+        "ingredients": ["red onion","red bell pepper","carrots","celery","chili powder","cumin","paprika","cans diced tomatoes","black beans","pinto beans","vegetable broth","bay leaf","cilantro","limes","avocado","tortilla chips","sour cream or crème fraîche","cheddar"]
+    },
+    {
+        "name": "Broccoli Rabe, Shakshuka Style",
+        "link": "https://cooking.nytimes.com/recipes/1018252-broccoli-rabe-shakshuka-style",
+        "image": "https://static01.nyt.com/images/2016/08/24/dining/24PAIR-web/24PAIR-web-articleLarge.jpg",
+        "ingredients": ["onion","green bell peppers","jalapeño chiles","potatoes","thyme","vegetable broth","broccoli rabe","eggs","parmesan"]
+    },
+    {
+        "name": "Slow-Baked Beans With Kale",
+        "link": "https://cooking.nytimes.com/recipes/1013464-slow-baked-beans-with-kale",
+        "image": "https://static01.nyt.com/images/2019/01/02/dining/mrs-slow-baked-beans-with-kale/merlin_148148532_eb5ff06b-39a5-48bf-baba-2542dff6874a-articleLarge.jpg",
+        "ingredients": ["kale","onion","carrot","celery","white beans or lima beans","tomato paste","parsley","thyme","bay leaf","bread crumbs"]
+    },
+    {
+        "name": "Spinach Artichoke Egg Casserole",
+        "link": "http://www.aspicyperspective.com/spinach-artichoke-egg-casserole/",
+        "image": "https://nitrocdn.com/wNaVTMyblCPjzAPXbeDDfFKcpvICVOVU/assets/static/optimized/rev-cfa187f/wp-content/uploads/2016/03/spinach-artichoke-egg-casserole-14.jpg",
+        "ingredients": ["eggs","artichoke hearts","spinach","cheddar","parmesan","ricotta cheese","onion","thyme"]
+    },
+    {
+        "name": "Cracked Farro and Broccoli Salad",
+        "link": "http://www.bonappetit.com/recipe/cracked-farro-and-broccoli-salad",
+        "image": "https://assets.bonappetit.com/photos/57acc01253e63daf11a4d9ac/16:9/w_2560,c_limit/cracked-farro-and-broccoli-salad.jpg",
+        "ingredients": ["farro","egg","anchovy fillets","lemon","white wine vinegar","Dijon mustard","vegetable oil","broccoli","red onion","cucumber","Fresno chiles","sun-dried tomatoes","mint","radishes","pecorino"]
+    },
+    {
+        "name": "Farro with Mushrooms, Broccoli, Almonds and Feta",
+        "link": "http://www.theperfectpantry.com/2013/02/recipe-for-farro-with-mushrooms-broccoli-almonds-and-feta.html",
+        "image": "https://ninecooks.typepad.com/.a/6a00d83451fa5069e2017c36624082970b-800wi",
+        "ingredients": ["farro","vegetable broth","onion","mushrooms","broccoli","thyme","feta","almonds"]
+    },
+    {
+        "name": "Cabbage and Potato Gratin",
+        "link": "https://cooking.nytimes.com/recipes/1018004-cabbage-and-potato-gratin",
+        "image": "https://static01.nyt.com/images/2016/03/02/dining/02MARTHA/02MARTHA-articleLarge.jpg",
+        "ingredients": ["cabbage","potatoes, such as russets, peeled and sliced","2 garlic cloves, peeled","milk","crème fraîche","gruyère","parmesan","sage"]
     }
 ]}

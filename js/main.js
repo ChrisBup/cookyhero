@@ -1,31 +1,42 @@
 $(function() {
+  // getJSON
   $.getJSON('/js/data.json', function(data) {
 
-  // Retrieve the template data from the HTML (jQuery is used here).
-  var template = $('#dish-template').html();
+    // retrieve the template data from the HTML with jQuery
+    var template = $('#dish-template').html();
 
-  // Compile the template data into a function
-  var templateScript = Handlebars.compile(template);
+    // compile the template data into a function
+    var templateScript = Handlebars.compile(template);
 
-  // pass in data
-  var html = templateScript(data);
+    // pass in data
+    var html = templateScript(data);
 
-  // Insert the HTML code into the page
-  $('.sub-container').html(html);
+    // insert the HTML code into the page
+    $('.sub-container').html(html);
 
-  $("img.lazy").unveil(200, function() {
-    $(this).load(function() {
-      this.style.opacity = 1;
+    $("img.lazy").unveil(200, function() {
+      $(this).load(function() {
+        this.style.opacity = 1;
+      });
     });
+
+    // if image link is broken, display alt text
+    $('img.dish-pic').on("error", function() {
+      let dishName = $(this).attr("alt");
+      $(this).siblings(".no-img").show().find(".no-img-dish-name").text(dishName);
+      $(this).hide();
+    });
+
+    // check ingredient list item
+    $('.checkbox').click(function() {
+      $( this ).toggleClass( "checked" );
+    });
+
   });
 
-  $('.checkbox').click(function() {
-    $( this ).toggleClass( "checked" );
-  });
+});
 
-  }); //getJSON
-
-}); //function
+// open ingredient list
 
 function toggle_visibility(e, id) {
   e = e || window.event; // Cross browser support
@@ -37,6 +48,8 @@ function toggle_visibility(e, id) {
   }
   e.preventDefault();
 }
+
+// change ingredient list icon
 
 function change_icon(e, id)  {
   e = e || window.event; // Cross browser support
@@ -50,10 +63,14 @@ function change_icon(e, id)  {
   e.preventDefault();
 }
 
+// header logo scrolls to top
+
 $("a[href='#top']").click(function() {
   $("html, body").animate({ scrollTop: 0 }, "slow");
   return false;
 });
+
+// recipe submission form
 
 $('.form-jump').on('click', function(){
   $(".success-wrapper").slideUp();
